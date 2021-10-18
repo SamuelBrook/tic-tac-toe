@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 600px;
+    height: 600px;
+    /* border: black;
+    border-width: thick;
+    border-style: solid; */
+    justify-content: center;
+    align-items: stretch;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.left {
+    border-right-color: black;
+    border-right-width: thin;
+    border-right-style: solid;
+}
+
+.right {
+    border-left-color: black;
+    border-left-width: thin;
+    border-left-style: solid;
+}
+
+.center {
+    border-top-color: black;
+    border-top-width: thin;
+    border-top-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+}
+
