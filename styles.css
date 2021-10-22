@@ -6,14 +6,24 @@ body {
     font-family: sans-serif;
 }
 
+#outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#turn {
+    margin: 90px;
+    margin-top: 60px;
+    font-size: xx-large;
+}
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 600px;
     height: 600px;
-    /* border: black;
-    border-width: thick;
-    border-style: solid; */
     justify-content: center;
     align-items: stretch;
 }
